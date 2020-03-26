@@ -25,7 +25,15 @@ export class App extends Component {
       },
       {
         id: 4,
-        name : "Augmented reality for ordering furniture application with ARKit framework by switf 5 language in ios developmenmt. "
+        name: "Display those data on client site with Vue component with Vue.js"
+      },
+      {
+        id: 5,
+        name: "Change those static data to dynamic data with Laravel query builder"
+      },
+      {
+        id: 6,
+        name : "Augmented reality for ordering furniture application with ARKit framework by switf 5 language in ios development. "
       }     
     ]
   }
