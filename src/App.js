@@ -83,9 +83,9 @@ export class App extends Component {
         <Education />
         <hr />
         <Project data={this.state.task} />
-        <br />
+        <hr />
         <Skills skill={this.skills.lang}/>
-        <br />
+        <hr />
         <Contact />
         
         
