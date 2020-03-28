@@ -1,6 +1,5 @@
 import './../../App.css';
 import React, { Component } from 'react'
-
 export class About extends Component {
 
   
@@ -32,7 +31,8 @@ export class About extends Component {
                 {sec} 
               </p>
            </div> 
-            
+        
+
 
         </div>
         

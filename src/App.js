@@ -7,6 +7,7 @@ import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
 import Skills from './components/pages/Skills';
 import Education from './components/pages/Education';
+
 export class App extends Component {
 
   state={
@@ -42,8 +43,7 @@ export class App extends Component {
     lang: [
       {
         id: 1,
-        name: "PHP",
-        img: ""
+        name: "PHP"
       },
       {
         id: 2,
@@ -67,38 +67,31 @@ export class App extends Component {
       },
     ]
   }
-
+    
 
   render() {
+    // storage.ref()
+    // console.log(storage)
     return (
       <div className="container">
 
-        {/* <div>   
-          <Navbar />
-          <Route exact path="/" render = {props => (
-            <Profile />
+       
 
-            )}/>    
-        <Route path="/about" component={About}  data={this.data.task} />  
-        </div>
-        <hr /> */}    
-        <Navbar />
-        <hr />
+        <Navbar/> 
+
+        <br />
         <Profile />
-        <hr />
+        <br />
         <About />
-        <hr />
+        <br />
         <Education />
-        <hr />
+        <br />
         <Project data={this.state.task} />
-        <hr />
+        <br />
         <Skills skill={this.skills.lang}/>
-        <hr />
+        <br />
         <Contact />
         
-        
-    
-
      
       </div>  
     )
