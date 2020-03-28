@@ -10,7 +10,7 @@ export default function Navbar() {
       <a style={linkStyle} href="#project">Project</a> |
       <a style={linkStyle} href="#skills">Skills</a> |
       <a style={linkStyle} href="#contact">Contact</a> |
-      
+      <a style={linkStyle} target="_blank" href="https://github.com/Jordanjun98/MyPortfolio">GitHub repo</a>
     </header>
 
       // <nav className="navbar">

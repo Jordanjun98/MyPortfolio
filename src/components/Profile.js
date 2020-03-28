@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import './../App.css';
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 export class Profile extends Component {
   
+  
+    // window.location.replace('http://www.google.com')
   
   
   render() {
@@ -13,7 +16,14 @@ export class Profile extends Component {
           <h2>Jordan Jun</h2>
             <div className="display-linebreak"> 
                 {text} 
+                
             </div>
+            
+           
+            <a href="/pdf/myresume.pdf">Resume</a>
+             
+              
+
         </div>
         
          
