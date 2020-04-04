@@ -1,28 +1,39 @@
-import React from 'react'
+import { stack	as Menu } from 'react-burger-menu'
+import React, { Component } from 'react'
 
-export default function Navbar() {
-  return (
-   
-    <header style={headerStyle} >   
-      <a href="#profile" style={linkStyle} to="/">Home</a> | 
-      <a href="#about" style={linkStyle} to="/about">About</a> |
-      <a style={linkStyle} href="#education">Education</a> |
-      <a style={linkStyle} href="#project">Project</a> |
-      <a style={linkStyle} href="#skills">Skills</a> |
-      <a style={linkStyle} href="#contact">Contact</a> |
-      <a style={linkStyle} target="_blank" href="https://github.com/Jordanjun98/MyPortfolio">GitHub repo</a>
-    </header>
+export class Navbar extends Component {
 
-      // <nav className="navbar">
-      //   <a href="#home"><i className="fa fa-fw fa-home"></i>Home</a>
-      //   <a href="#container-about"><i className="fa fa-fw fa-user"></i>About</a>
-      //   <a href="#skillheader"><i className="fa fa-fw fa-xing"></i>Skills</a>
-      //   <a id="protofolio-link" href="#Portfolio"><i className="fa fa-github-alt"></i>Projects</a> 
-      //   <a href="#contactnav"><i className="fa fa-fw fa-envelope"></i>Contact</a>
-      // </nav>
-    
-  )
+
+  // showSettings (event) {
+  //   event.preventDefault();
+  // }
+
+  render() {
+    return (
+      <div>
+        
+        
+        <Menu>
+          <a id="#profile"  href="#profile" className="menu-item" to="/">Home</a> 
+          <a id="#about"   href="#about" className="menu-item" to="/about">About</a> 
+          <a id="#education" className="menu-item" href="#education">Education</a> 
+          <a id="#project"  className="menu-item" href="#project">Project</a> 
+          <a id="#skills" className="menu-item" href="#skills">Skills</a> 
+          <a id="#contact" className="menu-item" href="#contact">Contact</a> 
+          <a className="menu-item" target="_blank" href="https://github.com/Jordanjun98/MyPortfolio">GitHub repo</a>
+          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+     
+        </Menu>
+
+
+
+      </div>
+    )
+  }
 }
+
+export default Navbar
+
 
 
 const headerStyle={
