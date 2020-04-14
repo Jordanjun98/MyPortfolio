@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-
+import Zoom from 'react-reveal/Zoom';
 export class Project extends Component {  
   render() {
     return(
-      <div className="container-about">
+      <Zoom>
+        <div>
         <h1 id="project">Projects Task</h1>
         
           {this.props.data.map(data => (
@@ -13,6 +14,9 @@ export class Project extends Component {
           ))}
         
       </div>
+
+      </Zoom>
+      
     )
   }
 }

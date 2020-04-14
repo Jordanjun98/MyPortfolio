@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-
+import Zoom from 'react-reveal/Zoom';
 export class Education extends Component {
   render() {
     return (
-      <div  className="container-about">
+      <Zoom>
+        <div>
         <h1 id="education"> Education</h1>
 
         <h2> 2017 - 2020 March </h2>
@@ -14,6 +15,9 @@ export class Education extends Component {
         <h3> SMK Bandar Tun Hussein Onn 2</h3>
         <h4>  Secondary school </h4>
       </div>
+
+      </Zoom>
+      
     )
   }
 }
