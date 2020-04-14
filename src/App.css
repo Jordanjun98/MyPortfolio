@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -48,25 +46,28 @@
   width:20%;
 }
 
-.container-about{
-  background-color: rgb(234, 246, 236);
- 
-  border-style: hidden;
-  padding: 18px; 
-  text-align: center;
-}
 
-
-.projects{
+.header{
   background-color: rgb(234, 246, 236);
   border-radius: 15px;
   border-style: hidden;
   padding: 18px; 
-  text-align: center;
+ 
   
 }
 
-.flex-project-container{
+body{
+  font-size: 16px;
+  background: grey;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  z-index: 1;
+  text-align: center;
+}
+
+
+
+/* .flex-project-container{
 
   display: flex;
   flex-wrap: wrap;
@@ -78,8 +79,8 @@
 .flex-project-container>div{
   
   background-color: #f1f1f1;
-  width: 150px;
-  height: 150px;;
+  width: 50px;
+  height: 100px;;
   margin: 32px;
   text-align: center;
   line-height: 75px;
@@ -96,7 +97,7 @@
  ul {
   float: left;
   width: 175px;
-}
+} */
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -141,7 +142,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background:#373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -153,7 +154,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #6e6d5a;
   padding: 0.8em;
 }
 
@@ -166,4 +167,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
+  color: whitesmoke;
+  font-style: italic;
 }

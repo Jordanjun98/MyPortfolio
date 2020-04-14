@@ -1,5 +1,6 @@
 import './../../App.css';
 import React, { Component } from 'react'
+import Zoom from 'react-reveal/Zoom';
 export class About extends Component {
 
   
@@ -13,8 +14,8 @@ export class About extends Component {
     return (
       <div>
       
-        
-        <div className="projects"> 
+        <Zoom>
+        <div> 
           
           <h1 id="about">Working experience</h1>
            <div className="container-about">
@@ -35,6 +36,9 @@ export class About extends Component {
 
 
         </div>
+        
+
+        </Zoom>
         
         
      
