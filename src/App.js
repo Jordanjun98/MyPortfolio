@@ -3,34 +3,23 @@ import Profile from './components/Profile'
 import Navbar from './components/layout/Navbar'
 import React, { Component } from 'react'
 import About from './components/pages/About'
-// import Project from './components/pages/Project';
+import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
 import Skills from './components/pages/Skills';
 import Education from './components/pages/Education';
-import Portfolio from './components/pages/Portfolio'
-// import imagePath from '../../../public/images'
-
-// import myConfiguredSanityClient from './sanityClient'
-import imageUrlBuilder from '@sanity/image-url'
-
-// const builder = imageUrlBuilder(myConfiguredSanityClient)
-
-// function urlFor(source) {
-//   return builder.image(source)
-// }
-
-
 
 export class App extends Component {
   state={
     task: [
       { 
         id: 1,
-        name : "Create testimony and category feature on admin site using CRUD for Zcova and SimeDarby CSR project"
+        name : "Create testimony and category feature on admin site using CRUD for Zcova and SimeDarby CSR project",
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1587190179-fe668e416ca995625755442eb429f7ae?w=600"
       },
       {
         id: 2,
-        name : "Pull data from admin site to client site for SimeDarby CSR project."
+        name : "Pull data from admin site to client site for SimeDarby CSR project.",
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1587190270-bb41b564b61d674a85b91fbceb504a49?w=600"
       },
       {
         id: 3,
@@ -46,7 +35,8 @@ export class App extends Component {
       },
       {
         id: 6,
-        name : "Augmented reality for ordering furniture application with ARKit framework by switf 5 language in ios development. "
+        name : "Augmented reality for ordering furniture application with ARKit framework by switf 5 language in ios development. ",
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1587190314-b02fff4b8466e727d22b76ae53dc8f64?w=600"
       }     
     ]
   }
@@ -56,12 +46,12 @@ export class App extends Component {
       {
         id: 1,
         name: "Laravel",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586845996-376a8995524b5fce9a5a18cc497846b3?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1589642784-a771a5984a86606d27a95dec4f5dfdf7?w=600"
       },
       {
         id: 2,
         name: "Java",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586846058-57c9f4c51fb1015d5403052289c1753b?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1589642835-351f6e549ed89d6bd1d39e086fc2c9eb?w=600"
       },
       {
         id: 3,
@@ -71,20 +61,21 @@ export class App extends Component {
       {
         id: 4,
         name: "Firebase",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586845755-be0ef8f00932a2fa1cd63baa21b2a2e0?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1586856184-66370a30f213d7a38f31f1f0d6e0fb7b?w=600"
       },
       {
         id: 5,
         name: "Switf 5",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586845826-7026bb41109409001f682af43b109cdb?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1589643021-9a1be86d0886a22fc634a7ebb05f94b4"
       },
       {
         id: 6,
         name: "React JS",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586846136-3cee6252e632da6a7d9ad98df6170479?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1589643075-477e0d61830952943929a30d527bb9d0?w=600"
       },
     ]
   }
+
     
 
   render() {
@@ -95,9 +86,7 @@ export class App extends Component {
      
       <div>
 
-       
-
-        <Navbar/> 
+        <Navbar/>
 
         <br />
         <div>
@@ -116,13 +105,12 @@ export class App extends Component {
         
         <br />
         {/* <Portfolio /> */}
-        {/* <Project data={this.state.task} /> */}
-      
+        <Project data={this.state.task} />
+        <br />
         <Skills skill={this.skills.lang}/>
         <br />
         <Contact />
-        
-     
+
       </div>  
     )
   }
