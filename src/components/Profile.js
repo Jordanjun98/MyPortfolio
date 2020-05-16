@@ -9,7 +9,7 @@ export class Profile extends Component {
   
   
   render() {
-    const text = "I'm a final year student which just finish degree studies in Computer Science\n\nThis website is fully done in react js framework.";
+    const text = "I'm a fresh graduate in Computer Science\n\nThis website is fully done in react js framework.";
     return (
       <Zoom>
         <div id="profile" >      
@@ -23,8 +23,7 @@ export class Profile extends Component {
             
            
             <a href="/pdf/myresume.pdf">Resume</a>
-             
-              
+                        
 
         </div>
         
