@@ -61,7 +61,7 @@ export class App extends Component {
       {
         id: 4,
         name: "Firebase",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586856184-66370a30f213d7a38f31f1f0d6e0fb7b?w=600"
+        imgUrl: "https://sandbox-uploads.imgix.net/u/1590428041-8ac5426d763beedc30f204e3198dff29?w=600"
       },
       {
         id: 5,
