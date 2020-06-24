@@ -46,17 +46,17 @@ export class App extends Component {
       {
         id: 1,
         name: "Laravel",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1589642784-a771a5984a86606d27a95dec4f5dfdf7?w=600"
+        imgUrl: "https://img.vim-cn.com/15/968cac795c66e759465ccebd9e6444b85f6d3b.png"
       },
       {
         id: 2,
         name: "Java",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1589642835-351f6e549ed89d6bd1d39e086fc2c9eb?w=600"
+        imgUrl: "https://img.vim-cn.com/2c/029916593bf291edc536870692a817775d20c5.png"
       },
       {
         id: 3,
         name: "Vue JS",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1586845363-1f21abe8d5cc3079fca1af4e37068d41?w=600"
+        imgUrl: "https://img.vim-cn.com/55/5257b8c5e7ecf34ce4f9b952eeaf006adfa339.png"
       },
       {
         id: 4,
@@ -66,12 +66,12 @@ export class App extends Component {
       {
         id: 5,
         name: "Switf 5",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1589643021-9a1be86d0886a22fc634a7ebb05f94b4"
+        imgUrl: "https://img.vim-cn.com/b4/9a7a48158a4ff8f6278f9c5667c35e122f7f3c.png"
       },
       {
         id: 6,
         name: "React JS",
-        imgUrl: "https://sandbox-uploads.imgix.net/u/1589643075-477e0d61830952943929a30d527bb9d0?w=600"
+        imgUrl: "https://img.vim-cn.com/b9/4fcff523f85f0a78d0d3fc1620d4b00aab92f2.png"
       },
     ]
   }
