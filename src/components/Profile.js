@@ -20,11 +20,6 @@ export class Profile extends Component {
                 {text} 
                 
             </div>
-            
-           
-            <a href="/pdf/myresume.pdf">Resume</a>
-                        
-
         </div>
         
          

@@ -5,7 +5,7 @@ export class About extends Component {
 
   
   render() {
-    const first = "Currently"
+    const first = "MAY 2020 till currently\nParticipate in software testing environment with different testing method and tools."
 
     const sec = "MARCH 2019 TO MAY 2019\nAssist the development team on CMS project for admin site using Laravel"
 
