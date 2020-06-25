@@ -1,0 +1,47 @@
+[debug] [2020-06-25T14:15:31.190Z] ----------------------------------------------------------------------
+[debug] [2020-06-25T14:15:31.193Z] Command:       /usr/local/bin/node /Users/jordan/.npm-global/bin/firebase init
+[debug] [2020-06-25T14:15:31.193Z] CLI Version:   7.16.1
+[debug] [2020-06-25T14:15:31.193Z] Platform:      darwin
+[debug] [2020-06-25T14:15:31.193Z] Node Version:  v10.15.0
+[debug] [2020-06-25T14:15:31.234Z] Time:          Thu Jun 25 2020 22:15:31 GMT+0800 (Malaysia Time)
+[debug] [2020-06-25T14:15:31.234Z] ----------------------------------------------------------------------
+[debug] [2020-06-25T14:15:31.235Z] 
+[debug] [2020-06-25T14:15:31.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-25T14:15:31.262Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jordan/Sites/Laravel/my-portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using myprofile-97259.
+[debug] [2020-06-25T14:15:34.103Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-25T14:15:34.104Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-25T14:15:34.271Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-25T14:15:34.289Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/myprofile-97259  
+ 
+[debug] [2020-06-25T14:15:34.621Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
